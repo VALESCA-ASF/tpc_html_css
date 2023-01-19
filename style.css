@@ -1,0 +1,72 @@
+/*
+  Este arquivo deverá ser salvo SEMPRE NA MESMA PASTA do projeto.
+   Caso contrário a renderização do estilo não será aplicada ao seu site.
+  
+  Note que cada elemento da página precisa ser especificado, para que o CSS
+  entenda o que ele deve estilizar.
+
+  Esta é uma das maneiras mais ágeis de mudar tudo em uma única vez
+   (alterando em um arquivo EXTERNO, como este.). Isto porque toda alteração relizada aqui,
+   impactará globalmente no seu projeto.
+*/
+
+
+/*
+  Padrão: especifique primeiro o lugar que você irá alterar.
+*/
+h1 {
+ background-color: ghostwhite;
+ color: black;
+ text-align: center;
+}
+
+
+
+
+body {
+  /*
+  Depois, abra as chaves com as instruções para o CSS.
+*/
+  background-color: Teal; /*Cor do fundo da página.*/
+  color: ghostwhite;  /*Cor do texto principal.*/
+  text-align: left; /*Alinhamento do texto.*/
+}
+
+
+h2 {
+  text-align: center;
+}
+
+
+/* Cor dos links (antes de passar o mouse por cima). */
+
+a:link {
+ color: #DCDCDC;
+}
+
+/* Muda a cor do link quando o mouse passa por cima. */
+a:hover {
+ color: #7FFFD4;
+}
+
+
+footer {
+  background-color: ghostwhite;
+  color: black;
+}
+
+
+article {
+  text-align: center;
+}
+
+
+main {
+  text-align: center;
+}
+
+
+
+/*
+  CONTINUA...
+/*

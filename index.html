@@ -8,6 +8,13 @@
 -->
 <head>
 
+<!--
+   Relacionando o arquivo de estilo, com o html.
+   Sem este link, as alterações  de estilo não serão
+   aplicadas à página.
+-->
+   <link rel="stylesheet" href="style.css">
+
 	<!--
        META: metadados (ou etiquetas) que buscadores como o Google, utilizam para descrever o seu site.
 	-->
@@ -17,7 +24,14 @@
 	TITLE: corresponde ao NOME DO SITE, aquele que aparece na guia.    
 	:)
 -->
+
+<!--
+   HR: insere uma linha divisória horizontal.
+   -->
+<hr>
 <title>Meu primeiro site</title>
+
+
 
 <!--
    E aqui fechamos o cabeçalho, utilizando a barra entre o elemento head para indicar o fim.
@@ -32,12 +46,28 @@
 </head>
 
 
+
+<!-- 
+   H2: título que fica no body da página.
+-->
+
+<body>
+
+   <h1>Título desta página</h1>
+
+<hr>
+
+<!--
+   SECTION: para agrupar informações ao lado da página.
+-->
+<section>
 <nav>
 	    <li><a href="#">Home</a></li>
         <li><a href="#">Nosso time</a></li>
         <li><a href="#">Projetos</a></li>
         <li><a href="#">Contato</a></li>
 </nav>
+</section>
 
 <!--
    <br> QUEBRA DE LINHA
@@ -47,19 +77,98 @@
 -->
 <br>
 
+<!--
+   ASIDE: para relacionar conteúdos complementares.
+-->
+<aside>
+
+<!--
+   FORM: para criar formulários. 
+-->
    <form>
          <input type="search" name="q" placeholder="Pesquisar">
          <input type="submit" value="Go!">
        </form>
      </nav>
+</aside>
 
 <!--
 	MAIN: conteúdo principal da página.
 -->
+ <br> <br> <br> 
+
+ <article>
+    Título do artigo
+ </article>
+
+ <br> <br> <br> 
      <main>
+
+      Texto principal
+
+      </main>
+
+<!--
+   DIV: utilizado para agrupar elementos para fins de estilos (usando class ou id). Trata-se de um container genérico.
+-->
+<div class="carrinho-de-compras">
+   <!--
+      Título da sua div.
+   -->
+   <br> <br> <br> 
+  <h3>Carrinho</h3>
+
+  <!--
+     UL: cria uma listagem.
+     LI: cria ítem a ítem da listagem.
+     HREF: contém o link para compra do produto.
+     STRONG: para destacar a fonte.
+     IMG SRC: para disponibilizar a fotografia do produto (fotografia esta que deverá permanecer na mesma pasta deste arquivo, ou em algum link externo na web). 
+  -->
+  <ul>
+    <li>
+      <p><a href=""><strong>Nome do produto</strong></a>: R$99.95.</p>
+      <img src="../products/3333-0985/thumb.png" alt="nome do produto">
+    </li>
+    <li>
+      ...
+    </li>
+  </ul>
+  <p>Preço total: R$237.89</p>
+</div>
+
 
 
 
 <!--
-CONTINUA...
-	-->
+   FOOTER: rodapé.
+-->
+
+  <br> <br> <br> 
+
+<hr>
+<footer>
+   <!--
+      Notas do rodapé.
+   -->
+    <p>©Copyright 2023 Valesca Amaral. All rights reversed.</p>
+</footer>
+
+</body>
+
+</!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+</head>
+
+
+</body>
+</html>
+
+
+<!--
+      CONTINUA...
+   -->
